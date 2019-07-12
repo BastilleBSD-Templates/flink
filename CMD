@@ -1,0 +1,12 @@
+
+mkdir /home/flink
+cd /home/flink
+
+wget http://apache.claz.org/flink/flink-1.8.1/flink-1.8.1-bin-scala_2.12.tgz
+
+tar xzf flink-*.tgz
+cd flink-1.8.0
+
+./bin/start-cluster.sh
+
+
